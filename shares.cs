@@ -29,7 +29,7 @@ public class Shares
         return array;
     }
 
-    public static int col(int[] NewArray) //Определяем количество четных элементов
+    public static int col(int[] NewArray) //Определить количество четных элементов
     {
         int a = 0;
         for (int i = 0; i < NewArray.Length; i++)
@@ -39,17 +39,7 @@ public class Shares
         return a;
     }
 
-    public static int sum(int[] NewArray) //Определяем количество четных элементов
-    {
-        int a = 0;
-        for (int i = 1; i < NewArray.Length; i = i + 2)
-        {
-            a = a + NewArray[i];
-        }
-        return a;
-    }
-
-    public static int maxElement(int[] NewArray) //Определяем максимальный элемент
+    public static int maxElement(int[] NewArray) //Определить максимальный элемент массива
     {
         int MaxE = NewArray[0];
         for (int i = 1; i < NewArray.Length; i++)
@@ -59,7 +49,7 @@ public class Shares
         return MaxE;
     }
 
-    public static int minElement(int[] NewArray) //Определяем минимальный элемент
+    public static int minElement(int[] NewArray) //Определить минимальный элемент массива
     {
         int MinE = NewArray[0];
         for (int i = 1; i < NewArray.Length; i++)
