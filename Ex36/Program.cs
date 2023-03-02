@@ -4,7 +4,7 @@
 using static Shares;
 int n = Size("Enter array elements number ");
 int [] Print = ArrayRandom (n);
-int summ = sum(Print);
+int summ = summ(Print);
 Console.WriteLine();
 Console.WriteLine(summ);
 

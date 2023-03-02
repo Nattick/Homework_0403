@@ -1,5 +1,6 @@
 ﻿// Задайте одномерный массив, заполненный случайными числами. 
 // Найдите сумму элементов, стоящих на нечётных позициях.
+using static Shares;
 int n = Size("Enter array elements number ");
 int [] Print = Array (n);
 int Col = col (Print);
